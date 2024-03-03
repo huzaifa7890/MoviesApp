@@ -15,6 +15,7 @@ class _MoviesListItemState extends State<MoviesListItem> {
   final List<Movie> myMovies = dummyMovies;
   int _selectedCategoryIndex = 0;
   final List<Category> categories = Category.values;
+  String _selectedImageUrl = "";
 
   List<Movie> getFilteredMovies() {
     return myMovies
@@ -30,6 +31,12 @@ class _MoviesListItemState extends State<MoviesListItem> {
           height: 350,
           width: double.infinity,
           color: Colors.red,
+          child: _selectedImageUrl.isNotEmpty
+              ? Image.network(
+                  _selectedImageUrl,
+                  fit: BoxFit.cover,
+                )
+              : Center(child: Text("No Movie Selected")),
         ),
         // Category Tabs
         Container(
@@ -76,29 +83,37 @@ class _MoviesListItemState extends State<MoviesListItem> {
             child: Row(
               children: getFilteredMovies()
                   .map(
-                    (movie) => Container(
-                      width: 160,
-                      margin: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.teal,
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          // Image.network(
-                          //   movie.movieimageurl,
-                          //   height: 100,
-                          //   width: 100,
-                          //   fit: BoxFit.cover,
-                          // ),
-                          SizedBox(height: 10),
-                          Text(
-                            movie.title,
-                            style: TextStyle(color: Colors.white, fontSize: 16),
-                          ),
-                        ],
+                    (movie) => GestureDetector(
+                      onTap: () {
+                        setState(() {
+                          _selectedImageUrl = movie.movieimageurl;
+                        });
+                      },
+                      child: Container(
+                        width: 160,
+                        margin: EdgeInsets.all(10),
+                        decoration: BoxDecoration(
+                          color: Colors.teal,
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Image.network(
+                              movie.movieimageurl,
+                              height: 100,
+                              width: 100,
+                              fit: BoxFit.cover,
+                            ),
+                            SizedBox(height: 10),
+                            Text(
+                              movie.title,
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 16),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   )

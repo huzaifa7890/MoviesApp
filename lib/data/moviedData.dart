@@ -6,9 +6,9 @@ const dummyMovies = [
     category: Category.live,
     title: 'Animal', //
     movieimageurl: //
-        'https://drive.google.com/file/d/19RVAk-1gqFQn1cRocTXj2Ccs8vmPfb1r/view?usp=sharing',
+        'https://images.indianexpress.com/2024/01/Poster-of-Animal.jpeg?w=640https://images.indianexpress.com/2024/01/Poster-of-Animal.jpeg?w=640',
     movieactorurl: //
-        'https://drive.google.com/file/d/1v5Z8wG3nmhnoCKrq-eqYLf_fyBj-GgCB/view?usp=sharing',
+        'https://imgeng.jagran.com/images/2023/sep/Ranbir%20kapoor%20in%20ncy1693727279689.jpg',
     description: [
       //
       'Animal is a 2023 Indian Hindi-language action drama film directed',
@@ -26,9 +26,9 @@ const dummyMovies = [
     category: Category.live,
     title: 'Baahubali', //
     movieimageurl: //
-        'https://drive.google.com/file/d/1rHAt26CAHjPUpcRz9auho5EARY--tQ6D/view?usp=sharing',
+        'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTnMA16Y55ki6WxoLTdTmxNnKwYCZiNwi0DvCakttCRBQgZyJpJ',
     movieactorurl: //
-        'https://drive.google.com/file/d/1-RNjYYGFf9AFVJ9NoyVTKp6pJ5Ev0sMb/view?usp=sharing',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Prabhas_at_MAMI_18th_Mumbai_film_festival.jpg/330px-Prabhas_at_MAMI_18th_Mumbai_film_festival.jpg',
     description: [
       //
 
@@ -47,9 +47,9 @@ const dummyMovies = [
     category: Category.following,
     title: 'Chal Mera Put', //
     movieimageurl: //
-        'https://drive.google.com/file/d/1pS1skPq2ax1-TjjxR2wZDwZSpTOwwZXv/view?usp=sharing',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJv4YgIAp-drkHIna-4AlzhkdtR5K9cvphZphKfDmr83V0sMlo',
     movieactorurl: //
-        'https://drive.google.com/file/d/1X7PWc3MIv4obzt8BU8Jln3rgJFGdFITZ/view?usp=sharing',
+        'https://hamariweb.com/profiles/images/profile/4910-616-10140.jpg',
     description: [
       //
 
@@ -68,9 +68,9 @@ const dummyMovies = [
     category: Category.following,
     title: 'Jawan', //
     movieimageurl: //
-        'https://drive.google.com/file/d/1xFaBVwlNJ4Zs9qGFQn_gQk1SdU6IXKwP/view?usp=sharing',
+        'https://upload.wikimedia.org/wikipedia/en/f/f2/12th_Fail_poster.jpeg',
     movieactorurl: //
-        'https://drive.google.com/file/d/1QGZm8agSrVG7uXFQyBik-CVGK8NPCGFz/view?usp=sharing',
+        'https://upload.wikimedia.org/wikipedia/commons/3/33/Vikrant_Massey_at_the_premiere_of_film_Chhapaak_in_2020_%28cropped%29.jpg',
     description: [
       //
 
@@ -89,9 +89,9 @@ const dummyMovies = [
     category: Category.foryou,
     title: 'Kabhir Singh', //
     movieimageurl: //
-        'https://drive.google.com/file/d/16TX4C2vcD7IrWRC-DLax4KYwGhGi6thM/view?usp=sharing',
+        'https://upload.wikimedia.org/wikipedia/en/d/dc/Kabir_Singh.jpg',
     movieactorurl: //
-        'https://drive.google.com/file/d/1fgpz171BuXVW661BpdgJL2R02NH37nJg/view?usp=sharing',
+        'https://m.media-amazon.com/images/M/MV5BNWU3NTQ1NTQtMDM1NS00YTg1LTk3OWItYmI0MGIyZjA5N2QzXkEyXkFqcGdeQWthc2hpa2F4',
     description: [
       //
 
@@ -110,9 +110,9 @@ const dummyMovies = [
     category: Category.foryou,
     title: 'KGF Chapter 2', //
     movieimageurl: //
-        'https://drive.google.com/file/d/1W2OrstE1_XLReB1OCS0U-Gf0mgNmt5qq/view?usp=sharing',
+        'https://images.odishatv.in/uploadimage/library/16_9/16_9_0/IMAGE_1626507079.jpg',
     movieactorurl: //
-        'https://drive.google.com/file/d/1SnnJeYCjxtNpjIg0X4WBCpL_v59GgW8O/view?usp=sharing',
+        'https://w0.peakpx.com/wallpaper/257/758/HD-wallpaper-k-g-f-rocky-bhai-angry-k-g-f-rocky-bhai-angry-kgf-chapter-2-kgf-2.jpg',
     description: [
       //
 
@@ -130,9 +130,9 @@ const dummyMovies = [
     category: Category.papular,
     title: 'Punjab Nahi Jaungi', //
     movieimageurl: //
-        'https://drive.google.com/file/d/10GpAwPlZ329rGAbBdCBiZV55bFg5JdOK/view?usp=sharing',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNjY2MjTdxrrjMH5ahGWWM2IvplaTHCWaeCY8_39JeT75yqDI0',
     movieactorurl: //
-        'https://drive.google.com/file/d/1dZpQLX4udKWGAnvuai3PMlnaSW0PeVEF/view?usp=sharing',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Humayun_Saeed.png/330px-Humayun_Saeed.png',
     description: [
       //
 
@@ -151,9 +151,9 @@ const dummyMovies = [
     category: Category.papular,
     title: 'Pushpa', //
     movieimageurl: //
-        'https://drive.google.com/file/d/181sZQTwUF7EiVjVDBBwflhDf_jXVCVvM/view?usp=sharing',
+        'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTEBj8p-ynRkaIk4luHnF02ahyCJ6epbBOt_6dTS5fBWs7rqC-E',
     movieactorurl: //
-        'https://drive.google.com/file/d/1PF29jKjo8Dzm-Ga2oqPDSPZiiHjaVmo5/view?usp=sharing',
+        'https://upload.wikimedia.org/wikipedia/commons/f/f0/Allu_Arjun_at_62nd_Filmfare_awards_south.jpg',
     description: [
       //
 
@@ -169,9 +169,9 @@ const dummyMovies = [
     category: Category.following,
     title: 'RRR', //
     movieimageurl: //
-        'https://drive.google.com/file/d/19KA77lmzJ5I8wtsRHfuA-3YoNn11oqbw/view?usp=sharing',
+        'https://upload.wikimedia.org/wikipedia/en/d/d7/RRR_Poster.jpg',
     movieactorurl: //
-        'https://drive.google.com/file/d/1uTb7Z6lYdsjOsE9ulTJknxXc2nFPgAfg/view?usp=sharing',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Ram_Charan_at_Promotion_of_%27Zanjeer%27_on_Jhalak_Dikhhla_Jaa.jpg/330px-Ram_Charan_at_Promotion_of_%27Zanjeer%27_on_Jhalak_Dikhhla_Jaa.jpg',
     description: [
       'RRR[note 1] (subtitled onscreen as Roudram Ranam Rudhiram) is a 2022 Indian Telugu-language epic period action drama film directed by S. S. Rajamouli, who co-wrote the film with V. Vijayendra Prasad. It was produced by D. V. V. Danayya of DVV Entertainment. The film stars N. T. Rama Rao Jr. and Ram Charan alongside an ensemble cast with Ajay Devgn, Alia Bhatt, Shriya Saran, Samuthirakani, Ray Stevenson, Alison Doody, and Olivia Morris playing supporting roles. It revolves around the fictional versions of two Indian revolutionaries, Alluri Sitarama Raju (Charan) and Komaram Bheem (Rama Rao), their friendship, and their fight against the British Raj.'
     ],
@@ -185,9 +185,9 @@ const dummyMovies = [
     category: Category.live,
     title: 'Tiger Zinda hai', //
     movieimageurl: //
-        'https://drive.google.com/file/d/19KA77lmzJ5I8wtsRHfuA-3YoNn11oqbw/view?usp=sharing',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs9rg58l09oOLXU_w3NR306J5iXVOfY1fPzmvmyyLgQtxWEs9A',
     movieactorurl: //
-        'https://drive.google.com/file/d/1HI0XNd8sDdUs6BfQ5N2WIMHKUV3rr0tf/view?usp=sharing',
+        'https://cdn.siasat.com/wp-content/uploads/2023/05/Salman-Khan-2-780x470.jpg',
     description: [
       //
 
@@ -196,6 +196,6 @@ const dummyMovies = [
     duration: '02:41:37', //
     views: '157.6M', //
 
-    rewies: '4.7(869)', //
+    rewies: '4.7(869)',
   ),
 ];
